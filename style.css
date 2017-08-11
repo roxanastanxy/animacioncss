@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0:
+        
+}
+.container{
+    width:1200px;
+    height:580px;
+    background-color:#487ebf;
+    position: relative;
+margin:0 auto;
+    padding:0 auto;
+    
+}
+.campo{
+    background-image: url(img/campo.png);
+    background-size:cover;
+    background-repeat:repeat;
+    width:1200px;
+    height: 200px;
+    background-position: bottom;
+    position: absolute;
+    bottom:0;
+}
+.montana{
+    background-image: url(img/mountain.png);
+    background-size: contain;
+   background-position: bottom;
+    background-repeat: no-repeat;
+    width:400px;
+    height: 400px;
+    position: absolute;
+    right: 0px;
+    bottom:60px;
+   
+    
+    
+    
+}
+.nubesnegras{
+    background-image: url(img/cloud.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat:repeat;
+    width:1200px;
+    height:150px;
+     
+}
+
+
+@keyframes mover{
+    
+    50%{background-position: center;
+        
+    }
+
+   
+}
+.lluvia{
+    background-image: url(img/drop.png);
+    background-repeat:repeat;
+    width:1200px;
+    height:580px;
+top:0;
+    bottom:580px;
+    border: 1px;
+z-index:1;
+  position: absolute;
+   background-position: top left;
+    animation-name: mover;
+    animation-duration: 1s;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+
+}
+.tronco{
+    background-image: url(img/trees.png);
+    width: 100px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left:100px;
+    
+}
+.copa{
+    background-image: url(img/copa.png);
+     width: 200px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:92px;
+    left:50px;
+    
+}
+.hoja{
+    background-image: url(img/hojas-044.png);
+    background-repeat: repeat;
+    width: 150px;
+    height: 80px;
+    background-size: contain;
+    position: absolute;
+    bottom:130px;
+     background-position: top left;
+    animation-name: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ animation-direction: normal;
+}
+.rayo1{
+    background-image: url(img/Lightning-Download-PNG.png);
+    background-repeat:no-repeat;
+    width:300px;
+    height: 350px;
+    position: absolute;
+    top:20px;
+    left:0;
+    background-size: contain;
+    
+    
+}
+.rayo2{
+    background-image: url(img/Lightning-Download-PNG.png);
+    background-repeat:no-repeat;
+    width:300px;
+    height: 350px;
+    position: absolute;
+    top:25px;
+    left:350px;
+        background-size: contain;
+}
+.rayo3{
+    background-image: url(img/Lightning-Download-PNG.png);
+    background-repeat:no-repeat;
+    width:300px;
+    height: 350px;
+    position: absolute;
+    top:25px;
+    left:850px;
+        background-size: contain;
+}
